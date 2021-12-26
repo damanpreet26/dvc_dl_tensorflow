@@ -1,7 +1,7 @@
 from setuptools import setup
 
 with open("requirements.txt","r+") as f:
-    desc = f.read()
+    long_desc = f.read()
 
 setup(
     name="src",
@@ -15,13 +15,13 @@ setup(
     license="GPU",
     python_requires=">=3.7",
     install_requires=[
-        dvc,
-        tensorflow,
-        numpy,
-        matplotlib,
-        pandas,
-        tqdm,
-        PyYAML,
-        boto3
+        "dvc",
+        "tensorflow",
+        "numpy",
+        "matplotlib",
+        "pandas",
+        "tqdm",
+        "PyYAML",
+        "boto3"
     ]
 )

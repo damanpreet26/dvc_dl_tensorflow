@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc pipeline
+Home-page: https://github.com/damanpreet26/dvc_dl_tensorflow
+Author: demon
+Author-email: damanpreets26@gmail.com
+License: GPU
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
 absl-py==1.0.0
 aiohttp==3.8.1
 aiohttp-retry==2.4.6
@@ -118,3 +129,5 @@ zipp==3.6.0
 
 # local packages -
 -e .
+
+
